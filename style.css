@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #fdded9;
+}
+/*wraps all body*/
+/* .container{
+  background-color: #fdded9;
+  
+} */
+/*contains the header, certifcate body and border*/
+.sub-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  
+
+}
+/*certificate heading div*/
+.head-wrap{
+background-color: #000000;
+padding: 30px;
+width: 80%;
+text-align: center;
+}
+.head-wrap>h1{
+  color: #ffffff;
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+}
+.head-wrap>p{
+  color: #ffffff;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+/*certifcate body div*/
+.body-wrapper{
+  background-color: #ffffff;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  height: auto;
+}
+.body-wrapper>h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  /* border-bottom: 1px solid #ffc900; */
+}
+.body-wrapper>p{
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 20px;
+}
+/*date and signature div*/
+.side-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+  
+}
+
+.side-body>p{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+
+}
+.date{
+border-bottom: 1px solid #000000;
+padding: 40px;
+margin-bottom: 50px;
+
+}
+
+.signature{
+margin-right: -100px;
+border-bottom: 1px solid #000000;
+padding: 40px;
+margin-bottom: 50px;
+}
+/*div for logo and verified text*/
+.verified-text{
+  position: absolute;
+  bottom: 35px;
+  left: 40%;
+
+}
+.verified-text>p{
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+}
+.logo{
+  width: 200px;
+  height: auto;
+  position: absolute;
+  bottom: 60px;
+  left: 45%;
+}
+
+.rectangle{
+  position: absolute;
+  height: 90%;
+  width: 76%;
+  border:solid #ffc900;
+  border-width: 1px;
+  bottom: 30px;
+  top: 20px;
+}
+
+/*The lines under date, signature and name*/
+.line{
+  position: absolute;
+  width: 500px;
+  height: 47px;
+  border-bottom: 1px solid #ffc900;
+  left: 30%;
+  top: 50%;
+
+}
+/* .line1{
+  position: absolute;
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid black;
+  left: 26%;
+} */
+/* .line2{
+  position: absolute;
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid black;
+  left: 64%;
+} */
