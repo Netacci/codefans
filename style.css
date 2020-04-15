@@ -2,89 +2,88 @@
   box-sizing: border-box;
   
 }
-body{
-  background-color: #fdded9;
-}
-/*wraps all body*/
-/* .container{
-  background-color: #fdded9;
-  
-} */
-/*contains the header, certifcate body and border*/
-.sub-container{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-  
 
+body{
+  overflow: hidden;
 }
-/*certificate heading div*/
-.head-wrap{
-background-color: #000000;
-padding: 30px;
-width: 80%;
-text-align: center;
+.comtainer{
+  position: relative;
+  margin: 0 auto;
+  height: 512px;
+  width: 900px;
+  
 }
+
+.bg{
+  position: relative;
+  height: auto;
+  width: 900px;
+  margin-left:100px;
+  margin-top: 30px;
+}
+
+.sub-container{
+  height: auto;
+  width: 900px;
+  position: relative;
+  top: -630px;
+}
+
 .head-wrap>h1{
-  color: #ffffff;
+  color: #967070;
   font-family: 'EB Garamond', serif;
   font-size: 50px;
-}
+  position: relative;
+  top: 50px;
+  left: 35%;
+  letter-spacing: 10px;
+} 
 .head-wrap>p{
-  color: #ffffff;
+  color: #967070;
   font-family: 'EB Garamond', serif;
   font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 50%;
 }
-/*certifcate body div*/
-.body-wrapper{
-  background-color: #ffffff;
-  width: 80%;
-  padding: 10px;
-  text-align: center;
-  height: auto;
-}
+
 .body-wrapper>h2{
   font-family: 'Sacramento', cursive;
   font-size: 50px;
-  /* border-bottom: 1px solid #ffc900; */
+  position: relative;
+  left: 50%;
+  top: 70px;
 }
 .body-wrapper>p{
   /* font-family: 'Sacramento', cursive; */
   font-size: 20px;
+  position: relative;
+  left: 20%;
+  top: 40px;
 }
-/*date and signature div*/
-.side-body{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
-  
-  
-}
+
 
 .side-body>p{
   font-family: 'EB Garamond', serif;
   font-size: 20px;
-
 }
+
 .date{
-border-bottom: 1px solid #000000;
-padding: 40px;
-margin-bottom: 50px;
+position: relative;
+top: 60px;
+left: 34%;
 
 }
 
 .signature{
-margin-right: -100px;
-border-bottom: 1px solid #000000;
-padding: 40px;
-margin-bottom: 50px;
+position: relative;
+bottom: 160px;
+left: 78%;
 }
 /*div for logo and verified text*/
 .verified-text{
-  position: absolute;
-  bottom: 35px;
+  position: relative;
+  top: 10px;
   left: 40%;
 
 }
@@ -95,28 +94,7 @@ margin-bottom: 50px;
 .logo{
   width: 200px;
   height: auto;
-  position: absolute;
-  bottom: 60px;
-  left: 45%;
-}
-
-.rectangle{
-  position: absolute;
-  height: 90%;
-  width: 76%;
-  border:solid #ffc900;
-  border-width: 1px;
-  bottom: 30px;
-  top: 20px;
-}
-
-/*The lines under date, signature and name*/
-.line{
-  position: absolute;
-  width: 500px;
-  height: 47px;
-  border-bottom: 1px solid #ffc900;
-  left: 30%;
-  top: 50%;
-
+  position: relative;
+  bottom: -10px;
+  left: 50%;
 }
